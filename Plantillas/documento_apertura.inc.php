@@ -17,7 +17,12 @@
     <link href="vendors\bootstrap-progressbar\css\bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- JQVMap -->
     <link href="vendors\jqvmap\dist\jqvmap.min.css" rel="stylesheet"/>
+<<<<<<< HEAD
     
+=======
+    <!-- bootstrap-daterangepicker -->
+    <link href="vendors\bootstrap-daterangepicker\daterangepicker.css" rel="stylesheet">
+>>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
 
     <!-- Custom Theme Style -->
     <link href="build\css\custom.min.css" rel="stylesheet">

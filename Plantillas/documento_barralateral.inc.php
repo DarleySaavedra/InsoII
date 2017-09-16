@@ -1,7 +1,11 @@
 <div class="col-md-3 left_col">
   <div class="left_col scroll-view">
     <div class="navbar nav_title" style="border: 0;">
+<<<<<<< HEAD
       <a class="site_title"><i class="fa fa-cutlery"></i> <span>Bon Appetit</span></a>
+=======
+      <a class="site_title"><i class="fa fa-cutlery"></i> <span>RestUnknown</span></a>
+>>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
     </div>
 
     <div class="clearfix"></div>

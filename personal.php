@@ -44,11 +44,19 @@ include_once 'Plantillas/documento_apertura.inc.php'
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
+<<<<<<< HEAD
                         <td>Diego Francisco</td>
                         <td>Oruna Cabrera</td>
                         <td>06656543</td>
                         <td>965665432</td>
                         <td>Mozo</td>
+=======
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+>>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                       </tr>
                       <tr>
                         <th scope="row">2</th>

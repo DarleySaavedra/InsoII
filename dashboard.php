@@ -71,12 +71,16 @@ include_once 'Plantillas/documento_apertura.inc.php'
 
                 <!-- page content -->
                 <div class="right_col" role="main">
+<<<<<<< HEAD
                   <div class="container">
                     <div class="jumbotron">
                       <h1>Bienvenido, Julio Perez</h1>
                       <p>Este es el panel de administrador del Restaurant Bon Appetit</p>
                     </div>
                   </div>
+=======
+
+>>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                   <div class="clearfix"></div>
                 </footer>
                 <!-- /footer content -->

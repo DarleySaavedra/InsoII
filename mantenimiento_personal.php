@@ -74,6 +74,10 @@
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                           <button class="btn btn-primary" type="button">Cancel</button>
+<<<<<<< HEAD
+=======
+						                    <button class="btn btn-primary" type="reset">Reset</button>
+>>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                           <button type="submit" class="btn btn-success">Submit</button>
                         </div>
                       </div>

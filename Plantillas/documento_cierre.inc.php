@@ -31,6 +31,12 @@
 <script src="vendors\jqvmap/dist/jquery.vmap.js"></script>
 <script src="vendors\jqvmap\dist\maps\jquery.vmap.world.js"></script>
 <script src="vendors\jqvmap\examples\js\jquery.vmap.sampledata.js"></script>
+<<<<<<< HEAD
+=======
+<!-- bootstrap-daterangepicker -->
+<script src="vendors\moment\min\moment.min.js"></script>
+<script src="vendors\bootstrap-daterangepicker\daterangepicker.js"></script>
+>>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
 
 <!-- Custom Theme Scripts -->
 <script src="build\js\custom.min.js"></script>
