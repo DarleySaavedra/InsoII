@@ -46,35 +46,21 @@ include_once 'Plantillas/documento_apertura.inc.php'
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link" ><i class="fa fa-chevron-up"></i></a>
                       </li>
-<<<<<<< HEAD
                       <li><a href="mantenimiento_carta.php"><i class="fa fa-plus" aria-hidden="true"></i></a>
                       </li>
-=======
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                     </ul>
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
 
                     <div class="row">
-<<<<<<< HEAD
-=======
-
-                      <p>Media gallery design emelents</p>
-
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                       <div class="col-md-55">
                         <div class="thumbnail">
                           <div class="image view view-first">
                             <img style="width: 100%; display: block;" src="imagen/ceviche1.jpg" alt="image">
                             <div class="mask no-caption">
                               <div class="tools tools-bottom">
-<<<<<<< HEAD
                                 <a href="mantenimiento_carta.php"><i class="fa fa-pencil"></i></a>
-=======
-
-                                <a href="mantenimient_personal.php"><i class="fa fa-pencil"></i></a>
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                                 <a href="#"><i class="fa fa-times"></i></a>
                               </div>
                             </div>
@@ -82,11 +68,7 @@ include_once 'Plantillas/documento_apertura.inc.php'
                           <div class="caption">
                             <p><strong>Ceviche de Pescado</strong>
                             </p>
-<<<<<<< HEAD
                             <p>Pescado Fresco</p>
-=======
-                            <p>lorem impsum</p>
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                           </div>
                         </div>
                       </div>
@@ -185,11 +167,8 @@ include_once 'Plantillas/documento_apertura.inc.php'
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
-<<<<<<< HEAD
                     <li><a href="mantenimiento_carta.php"><i class="fa fa-plus" aria-hidden="true"></i></a>
                     </li>
-=======
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                     </ul>
                   <div class="clearfix"></div>
                 </div>
@@ -312,11 +291,8 @@ include_once 'Plantillas/documento_apertura.inc.php'
                 <ul class="nav navbar-right panel_toolbox">
                   <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                   </li>
-<<<<<<< HEAD
                   <li><a href="mantenimiento_carta.php"><i class="fa fa-plus" aria-hidden="true"></i></a>
                   </li>
-=======
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                   </ul>
                 <div class="clearfix"></div>
               </div>

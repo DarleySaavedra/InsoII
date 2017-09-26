@@ -1,6 +1,7 @@
 <?php
   include_once 'Plantillas/documento_apertura.inc.php'
  ?>
+
         <body class="nav-md">
             <div class="container body">
               <div class="main_container">
@@ -63,7 +64,7 @@
                       <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Categoria</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <select class="form-control">
+                          <select id="categoria" class="form-control">
                             <option>Elige Categoria</option>
                             <option>Mozo</option>
                             <option>Cheff</option>
@@ -74,10 +75,6 @@
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                           <button class="btn btn-primary" type="button">Cancel</button>
-<<<<<<< HEAD
-=======
-						                    <button class="btn btn-primary" type="reset">Reset</button>
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                           <button type="submit" class="btn btn-success">Submit</button>
                         </div>
                       </div>
@@ -94,7 +91,6 @@
                 <!-- /footer content -->
               </div>
             </div>
-
 
 
             <?php

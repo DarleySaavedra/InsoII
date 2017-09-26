@@ -1,6 +1,10 @@
 <?php
-  include_once 'Plantillas/documento_apertura.inc.php'
+
+include_once 'Plantillas/documento_apertura.inc.php';
+
+
  ?>
+
         <body class="nav-md">
             <div class="container body">
               <div class="main_container">
@@ -31,66 +35,46 @@
                   </div>
                   <div class="x_content">
                     <br>
-                    <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                    <form data-parsley-validate="" class="form-horizontal form-label-left" novalidate="" method="post", action=guardar.php>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Categoria</label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <select class="form-control">
-                            <option>Elige Categoria</option>
-                            <option>Entrada</option>
-                            <option>Plato de Fondo</option>
-                            <option>Bebida</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="form-group">
-<<<<<<< HEAD
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nombre <span class="required">*</span>
-=======
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Categoria <span class="required">*</span>
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" name="categoria" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="form-group">
-<<<<<<< HEAD
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Descripcion <span class="required">*</span>
-=======
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Nombre <span class="required">*</span>
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nombre <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" name="nombre" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Descripcion <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input type="text" name="descripcion" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="form-group">
                         <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Precio </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                          <input name="precio" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
                         </div>
                       </div>
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-<<<<<<< HEAD
                           <button class="btn btn-primary" type="button">Cancelarl</button>
-                          <button type="submit" class="btn btn-success">Registrar</button>
-=======
-                          <button class="btn btn-primary" type="button">Cancel</button>
-						                    <button class="btn btn-primary" type="reset">Reset</button>
-                          <button type="submit" class="btn btn-success">Submit</button>
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
+                          <button type="submit" class="btn btn-success" name="submit">Registrar</button>
                         </div>
                       </div>
-
                     </form>
                   </div>
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
 
 
 
@@ -152,8 +136,6 @@
         </div>
       </div>
     </div>
-=======
->>>>>>> 65aa5bb017671916be5f44bfd4d9a9640ef7a411
                     <!-- FORMULARIO PTM -->
                   </div>
                   <div class="clearfix"></div>
