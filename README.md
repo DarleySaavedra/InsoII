@@ -36,6 +36,7 @@ Generando así un nuevo nivel de comunicación y así mismo optimizando el manej
 El acceso detallado a los requerimientos, junto con las tareas de cada programador, se encuentran en el siguiente [enlace](https://1drv.ms/b/s!AvVTER7F8abOiCjTYmvUzrQ-n3Xo)
 
 ***Clonacion del Proyecto***
+--------------------
  
 `$ git clone https://github.com/DiegoOruna/InsoII.git`
 
