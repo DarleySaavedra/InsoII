@@ -25,7 +25,7 @@ if($found==true) {
 	$_SESSION['user_id']=$userid ;
 //	setcookie('userid',$userid);
 //	print $_SESSION['userid'];
-	print "Cargando ... $user";
+
 	print "<script>window.location='index.php?view=home';</script>";
 }else {
 	print "<script>window.location='index.php?view=login';</script>";

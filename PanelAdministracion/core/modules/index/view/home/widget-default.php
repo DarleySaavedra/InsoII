@@ -3,7 +3,7 @@
    $user = UserData::getById(Session::getUID());
    ?>
 <section class="content-header">
-   <h1>Appetit: Panel de Administracion</h1>
+   <h1>Panel de Administracion</h1>
 </section>
 <div class="content">
    <div class="row">

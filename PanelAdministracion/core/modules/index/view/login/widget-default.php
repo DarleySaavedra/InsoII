@@ -1,39 +1,171 @@
-        <div class="row">
-            <div class="col-md-12">
+<div class="row">
+<div class="col-md-12">
 
 
+</div>
+<div class="form-box" id="login-box">
+    <form class="form-horizontal form-label-left" action="index.php?view=processlogin" method="post">
+
+
+    <style>
+    /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+    @import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+    body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    }
+
+    .body{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    z-index: 0;
+    }
+
+    .grad{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    z-index: 1;
+    opacity: 0.7;
+    }
+
+    .header{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 255px);
+    z-index: 2;
+    }
+
+    .header div{
+    float: left;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    }
+
+    .header div span{
+    color: #5379fa !important;
+    }
+
+    .login{
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+    }
+
+    .login input[type=text]{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    }
+
+    .login input[type=password]{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+    }
+
+    #boton{
+    width: 250px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+    }
+
+    #boton:hover{
+    opacity: 0.8;
+    }
+
+    #boton:active{
+    opacity: 0.6;
+    }
+
+    .login input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    .login input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    #boton:focus{
+    outline: none;
+    }
+
+    ::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+    }
+
+    ::-moz-input-placeholder{
+    color: rgba(255,255,255,0.6);
+    }
+    </style>
+
+
+      <div class="body"></div>
+            <div class="grad"></div>
+            <div class="header">
+                <div>Bon<span>Appetit</span></div>
             </div>
-            <div class="form-box" id="login-box">
-
-                <br>
-                <div class="jumbotron jumbotron-fluid">
-                  <div class="container">
-                    <h1 class="display-3">Panel de Administracion</h1>
-                    <p class="lead">Bienvenido al sistema de administracion de BondAppetit, logueate para acceder.</p>
-                  </div>
-                </div>
-                <form class="form-horizontal form-label-left" action="index.php?view=processlogin" method="post">
-                    <div class="body bg-gray">
-                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">ID
-                      </label>
-                        <div class="item form-group col-md-6 col-md-offset-3" >
-                            <input type="text" name="mail" class="form-control" placeholder="Nombre de usuario"/>
-                        </div>
-                        <br>
-                        <br><br><br>
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Password
-                        </label>
-                        <div class="item form-group col-md-6 col-md-offset-3">
-                            <input type="password" name="password" class="form-control" placeholder="Password"/>
-                        </div>
-
-                    </div>
-                    <br><br><br>
-                    <div class="footer col-md-3 col-md-offset-4">
-                        <button type="submit" class="btn btn-primary btn-block">Iniciar Sesion</button>
-                    </div>
-                </form>
+            <br>
+            <div class="login">
+                    <input type="text" placeholder="username" name="mail"><br>
+                    <input type="password" placeholder="password" name="password"><br>
+                    <button type="submit" id="boton">Enviar</button>
             </div>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
 
-            </div>
+    </form>
+</div>
+</div>

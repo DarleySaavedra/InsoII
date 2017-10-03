@@ -1,5 +1,5 @@
 <section class="content-header">
-		<h1>Venta</h1>
+		<h1>Pedido</h1>
 </section>
 <section class="content">
 

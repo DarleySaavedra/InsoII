@@ -1,6 +1,5 @@
 <?php
 
-print_r($_POST);
 
 $isadmin =0;
 if(isset($_POST["is_admin"])){$isadmin=1;}
@@ -20,5 +19,5 @@ $user->update_password();
 }
 
 setcookie("userupdated","userupdated");
-header("Location: index.php?view=users");
+print "<script>window.location='index.php?view=users';</script>";
 ?>

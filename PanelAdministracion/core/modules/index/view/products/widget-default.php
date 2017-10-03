@@ -44,7 +44,8 @@ if(count($products)>0){
 		<td><?php echo $product->name; ?></td>
 		<td>$ <?php echo number_format($product->price_out,2,".",","); ?></td>
 		<td style="width:170px;">
-		<a href="index.php?view=editproduct&id=<?php echo $product->id; ?>" title="Editar Producto" class="btn tip btn-xs btn-warning"><i class="glyphicon glyphicon-pencil"></i></a>
+		<a href="index.php?view=editproduct&id=<?php echo $product->id; ?>" title="Editar Producto" class="btn btn-warning btn-sm"><i class="glyphicon glyphicon-pencil"></i></a>
+		<a href="index.php?view=delproduct&id=<?php echo $product->id; ?>" class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-trash"></i></a>
 		</td>
 	</tr>
 	<?php endforeach;?>

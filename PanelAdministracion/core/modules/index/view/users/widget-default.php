@@ -35,24 +35,25 @@
          </thead>
          <?php
             foreach($users as $user){
+                  if($user->is_admin != 1){
             	?>
          <tr>
             <td><?php echo $user->name." ".$user->lastname; ?></td>
             <td><?php echo $user->email; ?></td>
             <td>
                <?php
-                  if($user->is_admin){ echo "Administrador"; }
-                  else if($user->is_mesero){ echo "Mesero"; }
+                  if($user->is_mesero){ echo "Mesero"; }
                   else if($user->is_cajero){ echo "Cajero"; }
                   ?>
             </td>
             <td style="width:90px;">
                <a href="index.php?view=edituser&id=<?php echo $user->id; ?>" class="btn btn-warning btn-sm"><i class="glyphicon glyphicon-pencil"></i></a>
                <a href="index.php?view=deluser&id=<?php echo $user->id; ?>" class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-trash"></i></a>
-            </td>
+            
+               </td>
          </tr>
          <?php
-            }
+            }}
             print "</table></div></div>";
 
 

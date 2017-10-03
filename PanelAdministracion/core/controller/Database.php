@@ -2,14 +2,14 @@
 class Database {
 
 
-	
+
 	public static $db;
 	public static $con;
 	function Database(){
-		$this->user="b7db3f88f3f62e";
-		$this->pass="1cf10bdf";
-		$this->host="us-cdbr-iron-east-05.cleardb.net";
-		$this->ddbb="heroku_bd06eed689454bf";
+		$this->user="root";
+		$this->pass="";
+		$this->host="localhost";
+		$this->ddbb="rst";
 	}
 
 	function connect(){
@@ -24,6 +24,6 @@ class Database {
 		}
 		return self::$con;
 	}
-	
+
 }
 ?>

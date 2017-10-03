@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>BondAppetit</title>
-
+    <title>Bon Appetit</title>
+    <link rel="shortcut icon" href="../ico/favicon.ico">
+    <link rel="icon" type="image/gif" href="../ico/animated_favicon1.gif"> 
     <!-- Bootstrap core CSS -->
     <link href="res/bootstrap3/css/bootstrap.css" rel="stylesheet">
 
@@ -41,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./">BondAppetit <sup><small><span class="label label-info">Version Final</span></small></sup> </a>
+          <a class="navbar-brand" href="./index.php?view=home">BondAppetit <sup><small><span class="label label-info"><i class="fa fa-cutlery" aria-hidden="true"></i> </span></small></sup> </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,14 +56,14 @@ if(Session::getUID()!=""):
           </ul>
           <ul class="nav navbar-nav side-nav">
           <li><a href="./?view=home"><i class="fa fa-home"></i> Dashboard</a></li>
-          <li><a href="./?view=monitor"><i class="fa fa-eye"></i> Monitor</a></li>
-          <li><a href="index.php?view=sell"><i class="fa fa-usd"></i> Vender</a></li>
+          <li><a href="./?view=monitor"><i class="fa fa-eye"></i> Control de Mesas</a></li>
+          <li><a href="index.php?view=sell&product="><i class="fa fa-usd"></i> Pedido</a></li>
           <li><a href="index.php?view=sells"><i class="fa fa-shopping-cart"></i> Ventas</a></li>
 <!--          <li><a href="index.php?view=resume"><i class="fa fa-star"></i> Resumen</a></li>
           <li><a href="index.php?view=spents"><i class="fa fa-download"></i> Gastos</a></li>
 -->
           <?php if($u->is_admin):?>
-          <li><a href="index.php?view=products"><i class="fa fa-glass"></i> Productos</a></li>
+          <li><a href="index.php?view=products"><i class="fa fa-glass"></i> Platos </a></li>
 
           <li><a href="index.php?view=categories"><i class="fa fa-th-list"></i> Categorias</a></li>
 

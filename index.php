@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 
 	<html class="no-js">
@@ -6,12 +6,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>
-		Appetit | Restaurante Gourmet &mdash; Web Design By Diego Oruna</title>
+		Bon Appetit | Restaurante Gourmet &mdash; Web Design By Diego Oruna</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="shortcut icon" href="../ico/favicon2.ico">
+	<link rel="icon" type="image/gif" href="../ico/animated_favicon12.gif">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	
+	
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic" rel="stylesheet" type="text/css">
 
@@ -39,7 +41,7 @@
 					<div class="container">
 						<div class="row">
 							<h1 class="to-animate">appetit</h1>
-							<h2 class="to-animate"><span>Restaurante Gourmet</span></h2>
+							<h2 class="to-animate"><span>Restaurante Gourmet - UPAO</span></h2>
 						</div>
 					</div>
 				</div>
@@ -118,7 +120,7 @@
 							</li>
 							<li>
 								<blockquote>
-									<p>&ldquo;Encuentre algo que le apasione y manténgase tremendamente interesado.&rdquo;</p>
+									<p>&ldquo;Encuentra algo que le apasione y te manténga tremendamente interesado.&rdquo;</p>
 									<p class="quote-author">&mdash; Julia Child</p>
 								</blockquote>
 							</li>
