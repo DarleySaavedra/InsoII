@@ -83,13 +83,13 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 ***¿Como se realizo el proyecto?***
 --------------------
 
-  + Metodologia Utilizada: SCRUM
+  + Metodologia Utilizada: XP
   + Lenguaje de Maquetado: HTML5
   + Lenguajes de Diseño y Funcionalidad: CSS, JavaScript
-  + Framework: Boostrap
-  + Lenguaje de Funcionalidad: PHP
+  + Framework de CSS: Boostrap
+  + Lenguaje de Programacion: PHP
   + Base de Datos: MySQL
-  + Herramienta de Despliegue: Heroku
+  + Plataforma de Despliegue: Heroku
   
 ***¿Como accedo al proyecto?***
 --------------------
