@@ -4,11 +4,11 @@ Sistema de Gestion de Restaurante 'Bon Appetit'
 Este proyecto ha sido desarrollado para el curso de **INGENIERIA DE SOFTWARE II**, a cargo de **Henry Mendoza Puerta**, docente de la Universidad Privada Antenor Orrego
 
 Integrantes:
++ Amaya Vargas Cristian
++ Ato Ruiz Carlos
++ Chinchayan Guevara Gabriela
 + Oruna Cabrera Diego
-+ Vargas Cristian
-+ Ruiz Carlos
-+ Guevara Gabriela
-+ Perez Julio
++ Rabines Perez Julio
 
 ***Introduccion al Proyecto***
 --------------------
@@ -57,6 +57,8 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 ![Interfaz 1](http://i65.tinypic.com/34rvddx.jpg)
 
 ![Interfaz 2](http://i68.tinypic.com/21bit8i.png)
+
+![Interfaz 3](http://i66.tinypic.com/sgijdc.png)
 
 ![Interfaz 3](http://i66.tinypic.com/sgijdc.png)
 
