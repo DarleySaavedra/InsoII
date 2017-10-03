@@ -40,7 +40,7 @@ Generando así un nuevo nivel de comunicación y así mismo optimizando el manej
 + Reporte de Ventas por Fecha
 + Reporte de Platos por Fecha
 
-El acceso detallado a los requerimientos, junto con las tareas de cada programador, se encuentran en el siguiente [enlace](https://1drv.ms/b/s!AvVTER7F8abOiCjTYmvUzrQ-n3Xo)
+El acceso detallado a los requerimientos, junto con las tareas de cada programador, se encuentran en el siguiente [enlace](https://1drv.ms/b/s!AvVTER7F8abOiCpHFzQyqivfc8nr)
 
 ***Clonación del Proyecto***
 --------------------
