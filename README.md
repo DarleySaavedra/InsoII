@@ -64,6 +64,8 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 
 ![Interfaz 3](http://i64.tinypic.com/264te0n.png)
 
+![Interfaz 3](http://i66.tinypic.com/256fjbk.png)
+
 
 ***¿Como Funciona?***
 --------------------
