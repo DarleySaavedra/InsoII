@@ -19,10 +19,10 @@ Se analizó el problema presente en la atención que brindaba dicho restaurante 
 Se desarrolló una interfaz basada en nuevas tecnologías buscando agilizar los procesos de atención y cobro, además de brindarle comodidad al cliente con la opción de reservar desde su casa, ahorrando el tiempo de espera en el restaurante.
 Generando así un nuevo nivel de comunicación y así mismo optimizando el manejo de información con un nuevo enfoque tecnológico optimizado para el establecimiento.
 
-[Pictograma de Diagnostico](http://i64.tinypic.com/2dig1tv.png)
+[Pictograma de Diagnostico](https://rawgit.com/DiegoOruna/InsoII/master/IR/picto.png)
 
 
-[Pictograma de Solucionador](http://i63.tinypic.com/24yofbn.png)
+[Pictograma de Solucionador](https://rawgit.com/DiegoOruna/InsoII/master/IR/picto2.png)
 
 
 
@@ -50,17 +50,22 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 ***Interfaces***
 --------------------
 
-<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/Captura%20de%20pantalla%202017-10-02%20a%20la(s)%2009.32.01%20copia.jpg' />
+<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/1.jpg' />
 
-![Interfaz 2](http://i68.tinypic.com/21bit8i.png)
 
-![Interfaz 3](http://i67.tinypic.com/al672g.png)
+<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/2.jpg' />
 
-![Interfaz 3](http://i64.tinypic.com/55qr7k.png)
 
-![Interfaz 3](http://i64.tinypic.com/264te0n.png)
+<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/3.jpg' />
 
-![Interfaz 3](http://i66.tinypic.com/256fjbk.png)
+
+<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/4.jpg' />
+
+
+<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/5.jpg' />
+
+
+<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/6.jpg' />
 
 
 ***¿Como Funciona?***
@@ -80,12 +85,11 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
   + Generar reportes por fecha de platos
   + Generar reportes por fecha de ventas
   
-***¿Como se realizo el proyecto?***
+***Tecnologias Utilizadas***
 --------------------
 
-  + Metodología Utilizada: XP
-  + Lenguaje de Maquetado: HTML5
-  + Lenguajes de Diseño y Funcionalidad: CSS, JavaScript
+  + Metodología XP
+  + HTML5, CSS, JavaScript
   + Framework de CSS: Boostrap
   + Lenguaje de Programacion: PHP
   + Base de Datos: MySQL
