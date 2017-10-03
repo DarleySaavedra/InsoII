@@ -88,12 +88,12 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 ***Tecnologias Utilizadas***
 --------------------
 
-  + Metodología XP
   + HTML5, CSS, JavaScript
-  + Framework de CSS: Boostrap
   + Lenguaje de Programacion: PHP
-  + Base de Datos: MySQL
-  + Plataforma de Despliegue: Heroku
+  
+ ***Metodologia***
+--------------------
+ + XP
   
 ***¿Como accedo al proyecto?***
 --------------------
