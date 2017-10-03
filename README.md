@@ -25,10 +25,6 @@ Generando así un nuevo nivel de comunicación y así mismo optimizando el manej
 [Pictograma de Solucionador](http://i63.tinypic.com/24yofbn.png)
 
 
-***Modelo de Negocio***
---------------------
-
-
 
 ***Requerimientos de la Empresa***
 --------------------
