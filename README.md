@@ -50,7 +50,7 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 ***Interfaces***
 --------------------
 
-![Interfaz 1](http://i65.tinypic.com/34rvddx.jpg)
+<img src='https://rawgit.com/DiegoOruna/InsoII/master/IR/Captura%20de%20pantalla%202017-10-02%20a%20la(s)%2009.32.01%20copia.jpg' />
 
 ![Interfaz 2](http://i68.tinypic.com/21bit8i.png)
 
