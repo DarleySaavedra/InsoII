@@ -19,6 +19,15 @@ Se analizó el problema presente en la atención que brindaba dicho restaurante 
 Se desarrolló una interfaz basada en nuevas tecnologías buscando agilizar los procesos de atencion y cobro, ademas de brindarle comodidad al cliente con la opción de reservar desde su casa, ahorrando el tiempo de espera en el restaurante.
 Generando así un nuevo nivel de comunicación y así mismo optimizando el manejo de información con un nuevo enfoque tecnológico optimizado para el establecimiento.
 
+***Modelo de Negocio***
+--------------------
+
+***Pictograma de Diagnostico y Solucionador***
+--------------------
+
+![Inter](http://i64.tinypic.com/2dig1tv.png)
+
+
 ***Requerimientos de la Empresa***
 --------------------
 
@@ -48,6 +57,8 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 ![Interfaz 2](http://i68.tinypic.com/21bit8i.png)
 
 ![Interfaz 3](http://i66.tinypic.com/sgijdc.png)
+
+
 
 ***¿Como Funciona?***
 --------------------
