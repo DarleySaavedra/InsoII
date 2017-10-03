@@ -22,11 +22,13 @@ Generando así un nuevo nivel de comunicación y así mismo optimizando el manej
 ***Modelo de Negocio***
 --------------------
 
-***Pictograma de Diagnostico y Solucionador***
+***Pictograma de Diagnostico ***
 --------------------
 
 ![Inter](http://i64.tinypic.com/2dig1tv.png)
 
+***Pictograma de Solucionador***
+--------------------
 
 ***Requerimientos de la Empresa***
 --------------------
