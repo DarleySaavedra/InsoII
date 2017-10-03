@@ -99,3 +99,5 @@ El acceso detallado a los requerimientos, junto con las tareas de cada programad
 --------------------
 
 Si se desea observar el proyecto en acción, mediante heroku hemos desplegado la aplicación en el siguiente [enlace](https://inso2.herokuapp.com).
+
+La evidencia de el Despliegue en heroku, se encuentra en el siguiente [enlace]()
